@@ -9,11 +9,11 @@ public class Hashing {
             arr[i] = input.nextInt();
         }
 //        precompute
-//        int hash[13] = {0};
+        int[] hash = new int[13];
         for (int i = 0;i<n;i++){
-//            hash[arr[i]]+=1;
+            hash[arr[i]]+=1;
         }
-        int q = input.nextInt();
+        System.out.println(hash[2]);
 
     }
 }
