@@ -11,11 +11,15 @@ public class Hashing {
             arr[i] = input.nextInt();
         }
 //        precompute
-        int[] hash = new int[13];
+        int[] hash = new int[1000000000];
         for (int i = 0;i<n;i++){
             hash[arr[i]]+=1;
         }
+//        fetching
         System.out.println("Number Of Times 2 Appears in array is "+hash[2]);
 
     }
 }
+/*
+ When You Are using hash you can only give upto 10^6 in main and 10^7 globally it means in function
+ */
