@@ -11,7 +11,7 @@ public class Hashing {
             arr[i] = input.nextInt();
         }
 //        precompute
-        int[] hash = new int[1000000000];
+        int[] hash = new int[10000000];
         for (int i = 0;i<n;i++){
             hash[arr[i]]+=1;
         }
